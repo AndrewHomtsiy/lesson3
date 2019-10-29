@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="./style.css">
+    <title>lection3</title>
+</head>
+<body>
+			<div class="table">
+			<h2>HTML Table</h2>
+
+		<table>
+		<tr class="tableheader">
+			<th>Ім'я</th>
+			<th>Прізвище</th> 
+			<th>Номер</th> 
+			<th>Email адрес</th>
+		</tr>
+		<tr>
+			<td>Тест1</td>
+			<td>Тест1</td>
+			<td>12345</td> 
+			<td>test@mail.com</td>
+		</tr>
+		<tr>
+				<td>Тест2</td>
+				<td>Тест2</td>
+				<td>43215</td> 
+				<td>test1@mail.com</td>
+		</tr>
+		<tr>
+				<td>Тест 3</td>
+				<td>Тест 3</td>
+				<td>112233</td> 
+				<td>test3@mail.com</td>
+		</tr>
+		</table>
+		</div>
+		<div class="info">
+			<input type="text" placeholder="Ваше им'я">
+			<input type="text" placeholder="Ваше прізвище">
+		</div>
+		<div class="checkbox">
+				<p>Стать</p>
+
+				<div class="radiobutton">
+					<div class="m">
+				<input type="radio" id="M" name="test" value="Man"
+						checked>
+				<label for="M">Ч</label>
+						</div>	
+						<div class="w">
+				<input type="radio" id="W" name="test" value="Women">
+				<label for="W">Ж</label>
+				</div>
+				</div>
+				<div class="text-area">
+					<textarea name="some-text" id="text" cols="30" rows="10" placeholder="Введіть ваще повідомлення"></textarea>
+				</div>
+				<div class="city">
+						<label>Виберіть місто</label>
+						<select>
+								<option value="" selected disabled hidden>Виберіть місто</option>
+								
+										<option value="Kyiv">Київ</option>
+										<option value="Odessa">Одеса</option>
+										<option value="Kharkiv">Харків</option>
+							</select>
+							
+
+						</select>
+				</div>
+		</div>
+		<div class="language">
+			<h2>Виьеріть мову</h2>
+				<input type="checkbox" id="German" value="language" checked>
+				<label for="German">Німецька</label>
+				<input type="checkbox" id="Ukrainian" value="language">
+				<label for="Ukrainian">Українська</label>
+				<input type="checkbox" id="Italian" value="language">
+				<label for="Italian">Італійська</label>
+		</div>
+		<div class="sendbutton">
+				<button type="submit">Надіслати</button>
+		</div>
+</body>
+</html>

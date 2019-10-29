@@ -1,0 +1,32 @@
+div {
+    margin: 15px;
+}
+table, tr, td{
+    border: 2px solid black;
+    padding: 3px;
+}
+th {
+    border: 3px solid black;
+}
+.info{
+    margin: 10px 5px;
+
+}
+.info input {
+    width: 300px;
+    height: 20px;
+    margin: 15px;
+    display: flex;
+    
+}
+.radiobutton {
+display: flex;
+flex-direction: column;
+
+}
+.m, .w {
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+}
+
